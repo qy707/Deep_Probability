@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Experiment artifacts and datasets produced by this project.
+# The runs* glob matters: a directory named runs200 does not match "runs/".
+runs/
+results/
+data/
+experiments/runs*/
+experiments/results*/
+logs/
+*.pt
+*.npz
+*.npy

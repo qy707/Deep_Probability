@@ -1,0 +1,4 @@
+scenario,regularization,split,epoch,n_seeds,coverage,coverage_se,relative_width,relative_width_se,relative_mae,relative_mae_se
+facemed,none,test,200,2,0.686498,0.029536,0.385724,0.033705,0.163785,0.002512
+facemed,time_dependent,test,200,2,0.863291,0.010127,1.175950,0.009300,0.251619,0.003581
+facemed,constant,test,200,2,0.825738,0.005063,0.973009,0.001991,0.219189,0.008701
